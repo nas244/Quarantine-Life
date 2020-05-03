@@ -41,7 +41,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 800
     y: 0
-    width: 346
+    width: 374
     height: 893
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 231, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 97
+  controlID: 165
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -116,9 +116,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1146
+    x: 1174
     y: 0
-    width: 678
+    width: 650
     height: 893
   m_MinSize: {x: 276, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -244,12 +244,12 @@ MonoBehaviour:
     height: 586
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
   - {fileID: 17}
   - {fileID: 11}
-  m_Selected: 1
+  m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &11
 MonoBehaviour:
@@ -361,9 +361,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1146
+    x: 1174
     y: 73
-    width: 677
+    width: 649
     height: 872
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
@@ -398,9 +398,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1146
+    x: 1174
     y: 73
-    width: 677
+    width: 649
     height: 872
   m_ViewDataDictionary: {fileID: 0}
   m_InitialOpenURL: https://public-cdn.cloud.unity3d.com/editor/production/cloud/hub
@@ -448,21 +448,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/PolygonTown/Prefabs/Characters
+    - Assets/TextMesh Pro/Resources/Fonts & Materials
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/PolygonTown/Prefabs/Characters
+  - Assets/TextMesh Pro/Resources/Fonts & Materials
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Nicklaus\Documents\repo\Quarantine-Life\Quarantine
     Life
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 043e0000
-    m_LastClickedID: 15876
-    m_ExpandedIDs: 00000000143c0000f03d00007c8c010000ca9a3b
+    scrollPos: {x: 0, y: 22}
+    m_SelectedIDs: 82390500
+    m_LastClickedID: 342402
+    m_ExpandedIDs: 00000000a67d0000aa7d0000dc460100783905007a39050000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -490,7 +490,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000a67d0000a87d0000aa7d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -517,19 +517,19 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000a8250000d2250000f22b0000a67e00003c7f00009e23000078150000a6640d00ac720000dc6f00006cde000066a900006aa900002675000000000000563b0200
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Character_FireFighter_01
-      m_OriginalName: Character_FireFighter_01
+      m_Name: SampleScene
+      m_OriginalName: SampleScene
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 146614
+      m_UserData: 41048
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -569,29 +569,29 @@ MonoBehaviour:
     serializedVersion: 2
     x: 800
     y: 73
-    width: 344
+    width: 372
     height: 872
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e4e00300
-      m_LastClickedID: 254180
-      m_ExpandedIDs: 76b7f9ff8ce003008ee0030090e0030092e0030094e0030098e00300a0e00300a2e00300a6e00300ace00300aee00300b0e00300b2e00300b4e00300b6e00300b8e00300bae00300bce00300c0e00300c2e00300cce00300d0e00300d2e00300d4e00300d8e00300dae00300dce00300dee00300e0e00300e4e00300e6e00300e8e00300eae00300eee00300f0e00300f2e00300f6e00300fae00300fce00300fee00300
+      m_SelectedIDs: dc23f9ff
+      m_LastClickedID: -449572
+      m_ExpandedIDs: dc23f9ff8842faff58a8faff72a8faff7ca8faff86a8faffa6a5fbff42b2fcff4aaffdff98bafdff9abafdff78f0feff40f3feffdef5feff6cf7feffe6f9feff1801ffffea05ffff160effff2e0effff8412ffff5a16ffffd416ffff221bffffc41fffffb822ffff5e25ffffba27ffffba28ffffd02dffffb03cffff6640fffffe43ffff2048ffff424bffff8c5bffffa465ffff1a73ffff0881ffff3e84ffffc488fffffa88ffff668fffffda91ffff20a5fffffeaaffff78aeffffaeb5ffffe0b5ffffeebaffff04c5ffff68cbffff22f1ffff58f1ffffdcf9ffff70fbffff3ce10400
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Main Camera
+        m_OriginalName: Main Camera
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 64198
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 2}
       m_SearchString: 
@@ -630,16 +630,16 @@ MonoBehaviour:
   m_ShowContextualTools: 0
   m_WindowGUID: f7c28bb21c1e77f40899396263e64570
   m_Gizmos: 1
-  m_SceneIsLit: 0
+  m_SceneIsLit: 1
   m_SceneLighting: 1
   m_2DMode: 0
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0.8450746, z: -0.05660346}
+    m_Target: {x: 22.894682, y: -4.9593067, z: 7.233696}
     speed: 2
-    m_Value: {x: 0, y: 0.8664693, z: -0.041361317}
+    m_Value: {x: 22.894682, y: -4.9593067, z: 7.233696}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -652,7 +652,7 @@ MonoBehaviour:
   m_SceneViewState:
     showFog: 1
     showMaterialUpdate: 0
-    showSkybox: 0
+    showSkybox: 1
     showFlares: 1
     showImageEffects: 1
     showParticleSystems: 1
@@ -685,13 +685,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.0029635439, y: 0.97047377, z: -0.2408984, w: 0.011938273}
+    m_Target: {x: 0.07331056, y: -0.92604595, z: 0.24318746, w: 0.2791612}
     speed: 2
-    m_Value: {x: 0.00296354, y: 0.9704725, z: -0.24089809, w: 0.011938257}
+    m_Value: {x: 0.0696207, y: -0.9300922, z: 0.24275929, w: 0.26673836}
   m_Size:
-    m_Target: 4.6968503
+    m_Target: 62.441116
     speed: 2
-    m_Value: 4.7389402
+    m_Value: 65.38337
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -774,7 +774,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -782,11 +782,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 0
+      y: 21
       width: 799
-      height: 565
+      height: 544
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 399.5, y: 282.5}
+    m_Translation: {x: 399.5, y: 272}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -794,9 +794,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -399.5
-      y: -282.5
+      y: -272
       width: 799
-      height: 565
+      height: 544
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 799, y: 565}
@@ -826,8 +826,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1146
+    x: 1174
     y: 73
-    width: 677
+    width: 649
     height: 872
   m_ViewDataDictionary: {fileID: 0}
